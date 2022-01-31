@@ -10,7 +10,7 @@ A simple command-line application.
 
 # Variables:
 
-Tipos de variables:
+## Tipos de variables:
 
 * int (entero)
 * double (decimal)
@@ -25,3 +25,20 @@ int? variable; // ok, int? es entero o nulo
 var variable=20; // ok.
 var variable; // puede ser un dynamic.
 ```
+
+* List (lista, en php a un arreglo indexado $a[20])
+* Map (mapa, en php a un arreglo asociativo $a["nombre"])
+
+## Clases y objetos
+
+```dart
+class <Nombreclase> { 
+  
+}
+
+var objeto=new <Nombreclase>(); // el new no es necesario
+// usando estatico:
+<Nombreclase>.campoestatico=20; 
+
+```
+
